@@ -21,9 +21,9 @@ public class TrainTicketMain {
 
         DBManager dbManager = new DBManager();
         dbManager.establishConnection();        //establishing connection with the database
-        JFrame signInframe = new signIn();
+        JFrame signInframe = new signIn();      // signIn page
 
-        signInframe.setVisible(true);
+        signInframe.setVisible(true);           // opening sign-in page
  
         System.out.println("");
 
